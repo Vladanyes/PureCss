@@ -1,0 +1,9 @@
+@function rem($pixels) {
+    @return $pixels / 16px+0rem;
+}
+
+$blue: #387675;
+$light-blue: #3f8381;
+$orange: #cb753b;
+
+$font: "Montserrat", sans-serif;

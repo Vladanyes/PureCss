@@ -1,0 +1,46 @@
+.header {
+    background-color: $blue;
+    border-top: rem(15px) solid #fff;
+}
+.header__logo {
+    font-family: $font;
+    font-weight: 700;
+    color: #fff;
+    font-size: 3.6375rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover {
+        color: #cb753b;
+    }
+}
+.pure-g__custom {
+    width: 80%;
+    margin: 0 auto;
+    height: 50px;
+    background-color: $blue;
+    justify-content: space-between;
+    min-height: 5rem;
+    overflow: hidden;
+}
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: rem(17px);
+    color: #fff;
+    padding: 0.5rem;
+    border-bottom: rem(2px) solid transparent;
+    &:hover {
+        border-bottom: rem(2px) solid #cb753b;
+    }
+}
+
+.fa {
+    color: #ffffff;
+} 
